@@ -93,7 +93,7 @@ doctors_button = Button(window, text="DOCTORS", anchor='center', font=("Ariel", 
             activebackground='dark blue', activeforeground='white', command=lambda: DoctorMethods.doc_press(window, fulwidth, fulheight, doctors_list, patients_list, pa_doc_list))
 doctors_button.place(x=100, y=fulheight/2-100, width=fulwidth/2-200, height = 50)
 
-workers_button = Button(window, text="WORKERS", anchor='center', font=("Ariel", 20,'bold'), bg="deep sky blue", fg="white", relief='ridge', 
+workers_button = Button(window, text="STAFFS", anchor='center', font=("Ariel", 20,'bold'), bg="deep sky blue", fg="white", relief='ridge', 
             activebackground='dark blue', activeforeground='white', command=lambda: WorkerMethods.wor_press(window, fulwidth, fulheight, workers_list))
 workers_button.place(x=100, y=fulheight/2-40, width=fulwidth/2-200, height = 50)
 
